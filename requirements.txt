@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+spacy
+nltk
+transformers[torch]
+datasets
+ipykernel
+#torch==2.0.1+cu121
+#torchvision==0.15.2+cu121
+#torchaudio==2.0.2+cu121
+
+-e .
