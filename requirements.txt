@@ -13,4 +13,6 @@ ipykernel
 #torchaudio==2.0.2+cu121
 tmdbsimple
 python-dotenv
+wordcloud
+tabulate
 -e .

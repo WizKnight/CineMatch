@@ -21,7 +21,7 @@ def fetch_movie_details(movie_id):
 
 # Collect movie IDs
 movie_ids = []
-for page in range(1, 6):  # 250 pages for 5000 movies
+for page in range(1, 6): 
     movie_ids.extend([movie['id'] for movie in fetch_popular_movies(page)])
 
 # Fetch movie details
